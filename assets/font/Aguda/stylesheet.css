@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'SVN-Aguda';
+    src: url('SVN-Aguda.eot');
+    src: url('SVN-Aguda.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Aguda.woff2') format('woff2'),
+        url('SVN-Aguda.woff') format('woff'),
+        url('SVN-Aguda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Aguda';
+    src: url('SVN-AgudaLight.eot');
+    src: url('SVN-AgudaLight.eot?#iefix') format('embedded-opentype'),
+        url('SVN-AgudaLight.woff2') format('woff2'),
+        url('SVN-AgudaLight.woff') format('woff'),
+        url('SVN-AgudaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Aguda';
+    src: url('SVN-AgudaBlack.eot');
+    src: url('SVN-AgudaBlack.eot?#iefix') format('embedded-opentype'),
+        url('SVN-AgudaBlack.woff2') format('woff2'),
+        url('SVN-AgudaBlack.woff') format('woff'),
+        url('SVN-AgudaBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Aguda';
+    src: url('SVN-AgudaBold.eot');
+    src: url('SVN-AgudaBold.eot?#iefix') format('embedded-opentype'),
+        url('SVN-AgudaBold.woff2') format('woff2'),
+        url('SVN-AgudaBold.woff') format('woff'),
+        url('SVN-AgudaBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
