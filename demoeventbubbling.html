@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn">Button 1</button>
+        <button class="btn">Button 2</button>
+        <div>Hello</div>
+    </div>
+
+    <script>
+        const btn = document.querySelectorAll('.btn');
+        const container = document.querySelector('.container');
+        
+        container.addEventListener('click', function (e) {
+            if (e.target.classList.contains('btn')) {
+                console.log(e.target);
+            }
+            // alert(this.textContent);
+        })
+
+        // btn.forEach(element => {
+        //     element.addEventListener('click', function () {
+        //         alert(this.textContent);
+        //     })
+        // });
+
+        const button = document.createElement('button');
+        button.classList.add('btn');
+        button.textContent = 'Button 3';
+        container.append(button);
+    </script>
+</body>
+</html>

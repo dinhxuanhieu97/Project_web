@@ -33,7 +33,7 @@ if (isset($_POST['login_email']) && isset($_POST['login_password'])) {
     if ($user) {
         $_SESSION['user']['email'] = $_POST['login_email'];
         $_SESSION['user']['id'] = $user['id'];
-        header('Location: manageproducts.php'); // Chuyển hướng đến trang quản lý sản phẩm
+        header('Location: product.php'); // Chuyển hướng đến trang sản phẩm
     } else {
         $loginError = "Sai email hoặc mật khẩu.";
     }
