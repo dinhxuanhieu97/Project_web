@@ -41,7 +41,7 @@ if(isset($_GET['id'])) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title><?php echo $item['product_name']; ?></title>
+  <title>Product</title>
 
   <link href="http://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -3052,11 +3052,11 @@ if(isset($_GET['id'])) {
                 <a class="footer-bottom-link" href>FALCON HELMET</a>
               </li>
               <li class="footer-bottom-item">
-                <a class="footer-bottom-link" href>Email: falconsport@gmail.com
+                <a class="footer-bottom-link" href>Email: hieudev@gmail.com
                 </a>
               </li>
               <li class="footer-bottom-item">
-                <a class="footer-bottom-link" href>Hotline: (+84) 89 89 86 038</a>
+                <a class="footer-bottom-link" href>Hotline: (+84) 89 99 999 99</a>
               </li>
             </ul>
           </div>

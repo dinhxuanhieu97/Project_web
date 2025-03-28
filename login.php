@@ -33,7 +33,7 @@ if (isset($_POST['login_email']) && isset($_POST['login_password'])) {
     if ($user) {
         $_SESSION['user']['email'] = $_POST['login_email'];
         $_SESSION['user']['id'] = $user['id'];
-        header('Location: product.php'); // Chuyển hướng đến trang sản phẩm
+        header('Location: index.php'); // Chuyển hướng đến trang sản phẩm
     } else {
         $loginError = "Sai email hoặc mật khẩu.";
     }
@@ -1147,11 +1147,11 @@ if (isset($_POST['register_email']) && isset($_POST['register_password']) && iss
                 <a class="footer-bottom-link" href>FALCON HELMET</a>
               </li>
               <li class="footer-bottom-item">
-                <a class="footer-bottom-link" href>Email: falconsport@gmail.com
+                <a class="footer-bottom-link" href>Email: hieudev@gmail.com
                 </a>
               </li>
               <li class="footer-bottom-item">
-                <a class="footer-bottom-link" href>Hotline: (+84) 89 89 86 038</a>
+                <a class="footer-bottom-link" href>Hotline: (+84) 89 99 999 99</a>
               </li>
             </ul>
           </div>

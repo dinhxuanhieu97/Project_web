@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const zValue = getRandomInt(250);
     card.style.transform = `perspective(500px) translateZ(${zValue}px)`;
 
-    const brightnessValue = (150 / 250) * zValue;
+    const brightnessValue = (150 / 100) * zValue;
     card.style.filter = `brightness(${brightnessValue}%)`;
 
     card.addEventListener("mousemove", () => {
